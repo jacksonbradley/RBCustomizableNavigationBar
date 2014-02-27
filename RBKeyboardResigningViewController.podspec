@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'RBKeyboardResigningViewController'
-  s.version      = '0.6'
+  s.version      = '0.1'
   s.summary      = ‘A ViewController that resigns the keyboard if you touch it.’
   s.homepage     = 'https://github.com/ryno2019/RBKeyboardResigningViewController'
 
