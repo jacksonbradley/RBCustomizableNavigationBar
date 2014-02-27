@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = 'A ViewController that resigns the keyboard if you touch it.'
   s.homepage     = 'https://github.com/ryno2019/RBKeyboardResigningViewController'
 
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.license      = { :type => 'MIT' }
   s.author       = { 'Ryan Brink' => 'ryan@ryanbrink.ca' }
   s.source       = {
     :git => 'https://github.com/ryno2019/RBKeyboardResigningViewController.git',
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   }
 
   s.platform     = :ios, '7.0'
-  s.source_files = './RBKeyboardResigningViewController/*.{h,m}'
+  s.source_files = 'RBKeyboardResigningViewController/*.{h,m}'
   s.requires_arc = true
 end
