@@ -19,7 +19,11 @@
 		C6205BA518BECB8800772108 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6205B8D18BECB8800772108 /* UIKit.framework */; };
 		C6205BAD18BECB8800772108 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6205BAB18BECB8800772108 /* InfoPlist.strings */; };
 		C6205BAF18BECB8800772108 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6205BAE18BECB8800772108 /* DemoTests.m */; };
-		C6205BBB18BECBD600772108 /* RBKeyboardResigningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6205BBA18BECBD600772108 /* RBKeyboardResigningViewController.m */; };
+		C660742C18CA49D800357ADF /* RBCustomizableNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C660742B18CA49D800357ADF /* RBCustomizableNavigationBar.m */; };
+		C660743218CA4A0E00357ADF /* RBExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C660743018CA4A0E00357ADF /* RBExampleViewController.m */; };
+		C660743318CA4A0E00357ADF /* RBExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C660743118CA4A0E00357ADF /* RBExampleViewController.xib */; };
+		C660743618CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C660743518CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m */; };
+		C660743818CA553C00357ADF /* RBExampleNavigatinBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = C660743718CA553C00357ADF /* RBExampleNavigatinBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +53,14 @@
 		C6205BAA18BECB8800772108 /* DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTests-Info.plist"; sourceTree = "<group>"; };
 		C6205BAC18BECB8800772108 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6205BAE18BECB8800772108 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
-		C6205BB918BECBD600772108 /* RBKeyboardResigningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBKeyboardResigningViewController.h; path = ../../../RBKeyboardResigningViewController/RBKeyboardResigningViewController.h; sourceTree = "<group>"; };
-		C6205BBA18BECBD600772108 /* RBKeyboardResigningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBKeyboardResigningViewController.m; path = ../../../RBKeyboardResigningViewController/RBKeyboardResigningViewController.m; sourceTree = "<group>"; };
+		C660742A18CA49D800357ADF /* RBCustomizableNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBCustomizableNavigationBar.h; path = ../../../RBCustomizableNavigationBar/RBCustomizableNavigationBar.h; sourceTree = "<group>"; };
+		C660742B18CA49D800357ADF /* RBCustomizableNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBCustomizableNavigationBar.m; path = ../../../RBCustomizableNavigationBar/RBCustomizableNavigationBar.m; sourceTree = "<group>"; };
+		C660742F18CA4A0E00357ADF /* RBExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBExampleViewController.h; sourceTree = "<group>"; };
+		C660743018CA4A0E00357ADF /* RBExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBExampleViewController.m; sourceTree = "<group>"; };
+		C660743118CA4A0E00357ADF /* RBExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBExampleViewController.xib; sourceTree = "<group>"; };
+		C660743418CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RBCustomizableNavigationBar.h"; sourceTree = "<group>"; };
+		C660743518CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RBCustomizableNavigationBar.m"; sourceTree = "<group>"; };
+		C660743718CA553C00357ADF /* RBExampleNavigatinBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBExampleNavigatinBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +120,15 @@
 		C6205B8F18BECB8800772108 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C6205BB818BECBAE00772108 /* RBKeyboardResigningViewController */,
+				C6205BB818BECBAE00772108 /* RBCustomizableNavigationBar */,
 				C6205B9818BECB8800772108 /* RBAppDelegate.h */,
 				C6205B9918BECB8800772108 /* RBAppDelegate.m */,
 				C6205B9B18BECB8800772108 /* Images.xcassets */,
 				C6205B9018BECB8800772108 /* Supporting Files */,
+				C660742F18CA4A0E00357ADF /* RBExampleViewController.h */,
+				C660743018CA4A0E00357ADF /* RBExampleViewController.m */,
+				C660743118CA4A0E00357ADF /* RBExampleViewController.xib */,
+				C660743718CA553C00357ADF /* RBExampleNavigatinBar.xib */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -148,13 +162,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C6205BB818BECBAE00772108 /* RBKeyboardResigningViewController */ = {
+		C6205BB818BECBAE00772108 /* RBCustomizableNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				C6205BB918BECBD600772108 /* RBKeyboardResigningViewController.h */,
-				C6205BBA18BECBD600772108 /* RBKeyboardResigningViewController.m */,
+				C660742A18CA49D800357ADF /* RBCustomizableNavigationBar.h */,
+				C660742B18CA49D800357ADF /* RBCustomizableNavigationBar.m */,
+				C660743418CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.h */,
+				C660743518CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m */,
 			);
-			name = RBKeyboardResigningViewController;
+			name = RBCustomizableNavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C660743818CA553C00357ADF /* RBExampleNavigatinBar.xib in Resources */,
 				C6205B9418BECB8800772108 /* InfoPlist.strings in Resources */,
 				C6205B9C18BECB8800772108 /* Images.xcassets in Resources */,
+				C660743318CA4A0E00357ADF /* RBExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6205B9A18BECB8800772108 /* RBAppDelegate.m in Sources */,
+				C660742C18CA49D800357ADF /* RBCustomizableNavigationBar.m in Sources */,
 				C6205B9618BECB8800772108 /* main.m in Sources */,
-				C6205BBB18BECBD600772108 /* RBKeyboardResigningViewController.m in Sources */,
+				C660743618CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m in Sources */,
+				C660743218CA4A0E00357ADF /* RBExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +478,7 @@
 				C6205BB418BECB8800772108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6205BB518BECB8800772108 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +487,7 @@
 				C6205BB718BECB8800772108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

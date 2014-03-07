@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RBKeyboardResigningViewController : UIViewController
-
+@interface RBCustomizableNavigationBar : UIView
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "RBAppDelegate.h"
+#import "RBExampleViewController.h"
 
 @implementation RBAppDelegate
 
@@ -15,7 +16,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    UIViewController *loginView = [[RBExampleViewController alloc] initWithNibName:@"RBExampleViewController" bundle:nil];
+    
+    self.window.rootViewController = loginView;
+    [loginView.view setExclusiveTouch:NO];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
