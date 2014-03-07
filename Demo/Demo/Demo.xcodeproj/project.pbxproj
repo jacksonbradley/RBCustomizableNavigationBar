@@ -22,8 +22,8 @@
 		C660742C18CA49D800357ADF /* RBCustomizableNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C660742B18CA49D800357ADF /* RBCustomizableNavigationBar.m */; };
 		C660743218CA4A0E00357ADF /* RBExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C660743018CA4A0E00357ADF /* RBExampleViewController.m */; };
 		C660743318CA4A0E00357ADF /* RBExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C660743118CA4A0E00357ADF /* RBExampleViewController.xib */; };
-		C660743618CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C660743518CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m */; };
 		C660743818CA553C00357ADF /* RBExampleNavigatinBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = C660743718CA553C00357ADF /* RBExampleNavigatinBar.xib */; };
+		C660743B18CA5C0700357ADF /* UIViewController+RBCustomizableNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C660743A18CA5C0700357ADF /* UIViewController+RBCustomizableNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +58,9 @@
 		C660742F18CA4A0E00357ADF /* RBExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBExampleViewController.h; sourceTree = "<group>"; };
 		C660743018CA4A0E00357ADF /* RBExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBExampleViewController.m; sourceTree = "<group>"; };
 		C660743118CA4A0E00357ADF /* RBExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBExampleViewController.xib; sourceTree = "<group>"; };
-		C660743418CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RBCustomizableNavigationBar.h"; sourceTree = "<group>"; };
-		C660743518CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RBCustomizableNavigationBar.m"; sourceTree = "<group>"; };
 		C660743718CA553C00357ADF /* RBExampleNavigatinBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBExampleNavigatinBar.xib; sourceTree = "<group>"; };
+		C660743918CA5C0700357ADF /* UIViewController+RBCustomizableNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RBCustomizableNavigationBar.h"; path = "../../../RBCustomizableNavigationBar/UIViewController+RBCustomizableNavigationBar.h"; sourceTree = "<group>"; };
+		C660743A18CA5C0700357ADF /* UIViewController+RBCustomizableNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RBCustomizableNavigationBar.m"; path = "../../../RBCustomizableNavigationBar/UIViewController+RBCustomizableNavigationBar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,10 +165,10 @@
 		C6205BB818BECBAE00772108 /* RBCustomizableNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				C660743918CA5C0700357ADF /* UIViewController+RBCustomizableNavigationBar.h */,
+				C660743A18CA5C0700357ADF /* UIViewController+RBCustomizableNavigationBar.m */,
 				C660742A18CA49D800357ADF /* RBCustomizableNavigationBar.h */,
 				C660742B18CA49D800357ADF /* RBCustomizableNavigationBar.m */,
-				C660743418CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.h */,
-				C660743518CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m */,
 			);
 			name = RBCustomizableNavigationBar;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 				C6205B9A18BECB8800772108 /* RBAppDelegate.m in Sources */,
 				C660742C18CA49D800357ADF /* RBCustomizableNavigationBar.m in Sources */,
 				C6205B9618BECB8800772108 /* main.m in Sources */,
-				C660743618CA4A2C00357ADF /* UIViewController+RBCustomizableNavigationBar.m in Sources */,
+				C660743B18CA5C0700357ADF /* UIViewController+RBCustomizableNavigationBar.m in Sources */,
 				C660743218CA4A0E00357ADF /* RBExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
